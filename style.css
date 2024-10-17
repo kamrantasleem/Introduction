@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:bisque}
+nav{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 100px;background-color:rgb(228, 129, 58)
+}
+nav .logo p{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    color:whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+
+}
+nav li a{
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 0px 40px;
+    color:wheat;
+    text-decoration: none;
+}
+img{
+   
+   float: right;
+   width: 36%;
+   padding-right: 8%;    
+   
+}
+span{
+    color: blue;
+}
+.content{
+    
+   font-size: 50px;
+   padding: 80px;
+   margin-top: 50px;
+   line-height: 1.4;
+  
+}
+nav li a:hover{
+    transition-duration: 0.8s;
+    color:rgb(5, 5, 5);
+}
+button{
+    width: 18%;
+    height:70px;
+    padding: 10px ;
+   font-size: 35px;
+    border-radius: 15px;
+    margin: 20px;
+   
+}
+    
+
+button:hover{
+    color:blue;
+    transition-duration:0.8s ;
+    background-color:  hotpink;
+    box-shadow:  3px 3px 6px orangered;
+    font-size:37px ;            
+}
+.btn{
+    padding-left: 50px;
+}
+    
